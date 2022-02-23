@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu+Condensed & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0%;
+}
+body{
+    background-image:linear-gradient(45deg, white,rgb(41, 97, 122) ) ;
+    height: 100vh;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+   
+
+}
+    
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(83, 117, 141, 0.7);
+    border-radius: 20px;
+    padding: 10px 30px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+
+   
+}
+p{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(63, 62, 62);
+    margin-top: 5px;
+    width:auto;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    font-size: 22px;
+}
+button{
+    
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+h2{
+    color: rgb(41, 41, 41);
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    
+}
+
+button:hover{
+    background-color: rgb(12, 66, 100);
+}
+
+.tabela{
+    margin-bottom: 30px;
+}
+
+img{
+    margin-top: 4px;
+    width: 24px;
+}
