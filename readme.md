@@ -1,7 +1,8 @@
 
+
 <br>
 <h1 align="center">
-<img src="js.png">
+<img src="js.png" style="width:100px">
 </h1>
 <h1 align="center">Java Script</h1>
 
@@ -32,9 +33,8 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 | && | e |
 | || | ou |
 | !(idade > 50) | NÃO idade maior que 50 |
-
-# <details>
-<summary><strong><h3>Meus exemplos</h3></strong></summary>
+<br>
+<details><summary><strong>Meus exemplos</strong></summary>
 
 <br>
 
@@ -71,9 +71,7 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 
 <br>
 
-# <details><summary><h3>Função</h3></summary>
-
-<br>
+# Função
 
 * Função Soma 
 
@@ -122,10 +120,9 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 
             document.getElementById("texto2").innerHTML = ("A temperatura é de: " + x + " grau celsius");
 
-</details>
 
-# <details>
-<summary><h3>Objetos</h3></summary>
+
+# Objetos
 
 * São basicamente variáveis com muitos valores.
 
@@ -167,18 +164,16 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 
             // vai retornar A marca é ford e o modelo é: ka
 
-</details>
 
-# <details>
-<summary><h3>Eventos</h3></summary>
+# Eventos
 
-<br>
+
 
 - São ações disparadas pela interação dos usuários na página.
 
 - É esses eventos que tornam as páginas interativas e dinâmicas.
 
-- Os eventos mais utilizados:
+ - Os eventos mais utilizados:
 
                 * onclick -> Disparado quando recebe um click.
 
@@ -211,15 +206,71 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
                 * onresize -> Disparado quando há um redimencionamento da janela.
 
 
-</details>
 
-# <details>
-<summary><h3>Arrays</h3></summary>
+
+# Arrays
 
 * Os arrays em JS são usados para armazenar vários valores em uma única variável. O item é encontrado pela posição.
 
-ex: const lista = ["arroz","feijão","macarrão","leite"];
+                ex: const lista = ["arroz","feijão","macarrão","leite"];
 
-A lista [0] (lista na posição 0) vai conter o valor "arroz".
+                A lista [0] (lista na posição 0) vai conter o valor "arroz".
 
-</details>
+
+# Métodos para Arrays (matrizes)
+
+ - join
+
+ - pop(); = [retira o ultimo item da lista]
+
+ - push ("qualquer coisa")  = [adiciona um item no final da lista]
+
+ - shift ();  = [remove o primeiro item da lista]
+
+ - unshift("qualquer coisa") =  [adiciona no primeiro item]
+ 
+ - delete let[0]; = colocar a posição
+
+ - splice(posição, quantos itens deletado,"item adc1", "item adc 2") = 
+
+ - concatenar lista = const super = lista1.concat(lista2, lista3);
+
+ - slice =  let = let.slice(2) vai mostrar apenas a posição 2
+
+ - sort = let = let.sort(); deixa em ordem alfabetica
+  
+
+ 
+ # IF e ELSE
+
+
+
+                let hora = new Date().getHours();
+
+                if(hora<12){
+                    alert('Bom dia');
+                }else if(hora<18){
+                    alert('Boa tarde');
+                }else{
+                    alert('Boa noite');
+                }
+            
+
+
+# Switch
+
+
+        switch(expressao){
+            caso a:
+
+                break;
+
+            caso b:
+
+                break;
+
+            caso c:
+
+                break;
+            defaut:
+        }
