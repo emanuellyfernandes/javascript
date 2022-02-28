@@ -1,7 +1,7 @@
 
 
 <br>
-<img src="js.png" style="width:100px; align=center">
+<img src="js.png" style="width:100px; text-align:center">
 <h1 align="center">Java Script </h1>
 
 - É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
