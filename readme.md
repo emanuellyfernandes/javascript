@@ -1,8 +1,8 @@
 
 
 <br>
-
-<h1 align="center">Java Script <img src="js.png" style="width:100px"></h1>
+<img src="js.png" style="width:100px; align=center">
+<h1 align="center">Java Script </h1>
 
 - É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
 
@@ -214,6 +214,7 @@
 
                 A lista [0] (lista na posição 0) vai conter o valor "arroz".
 
+<br>
 
 # Métodos para Arrays (matrizes)
 
@@ -238,7 +239,8 @@
  - sort = let = let.sort(); deixa em ordem alfabetica
   
 
- 
+<br>
+
  # IF e ELSE
 
 
@@ -254,6 +256,7 @@
                 }
             
 
+<br>
 
 # Switch
 
