@@ -1,12 +1,11 @@
 
-
 <br>
-<img src="js.png" style="width:100px; text-align:center">
-<h1 align="center">Java Script </h1>
+<h1 align="center"><img src="js.png" style="width:100px"><br> <br><br><b>JavaScript</b>  </h1>
 
 - É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
 
 - JavaScript permite inserir dinâmica ou interações em elementos HTML e controlar customizações CSS, de forma programática em páginas de internet, sistemas ou app.
+<br>
 
 # Operadores
 | Operador Aritmético |  Descrição  |
