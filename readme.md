@@ -1,7 +1,7 @@
 
 <br>
 <h1 align="center">
-<img src="./.github/js.png">
+<img src="js.png">
 </h1>
 <h1 align="center">Java Script</h1>
 
@@ -17,8 +17,8 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 | * | Multiplicação |
 | / | Divisão |
 | % | Módulo - Resto de uma operação de divisão |
-| ++ | Incremento ex: x=x+1
-| -- | Decremento ex: x=x-1
+| ++ | Incremento ex: x=x+1|
+| -- | Decremento ex: x=x-1|
 
  Operador Atribuição |  Descrição  |
 | ----------- | ----------- |
@@ -26,58 +26,52 @@ JavaScript permite inserir dinâmica ou interações em elementos HTML e control
 | += | Atribuição de soma (x += y) == (x = x + y) |
 
  Operador Lógico |  Descrição  |
+| ----------- | ----------- |
 | == | Igualdade |
 | != | Diferente |
 | && | e |
 | || | ou |
 | !(idade > 50) | NÃO idade maior que 50 |
 
-<details>
-<summary><strong>Meus exemplos</strong></summary>
+# <details>
+<summary><strong><h3>Meus exemplos</h3></strong></summary>
 
-Para fazer declarações: console.log("")
+<br>
 
-#
+            <b>Para fazer declarações:</b> console.log("")
 
-Para grupo de funções:
-function minhafuncao(){} 
+            
 
-#
+            <b>Para grupo de funções:</b>
+            function minhafuncao(){} 
 
-para declarar variáveis: var, let, const
+            
 
-#
+            <b>para declarar variáveis:</b> var, let, const
 
-para imprimir na tela:
-document.getElementById("texto").innerHTML = "o texto que vc quer";
+            
 
-#
+            <b>para imprimir na tela:</b>
+            document.getElementById("texto").innerHTML = "o texto que vc quer";
 
-operador condicional ternário:
-var idade, eleitor;
+            
 
-idade = 25;
-eleitor = (idade < 18) ? "Não é eleitor" : "Sim, é eleitor";
+            <b>operador condicional ternário:</b>
+            var idade, eleitor;
 
-alert ('A resposta é: ' + eleitor + ' a idade dele é: ' + idade);
+            idade = 25;
+            eleitor = (idade < 18) ? "Não é eleitor" : "Sim, é eleitor";
 
-#
- 
-
-
-
-
+            alert ('A resposta é: ' + eleitor + ' a idade dele é: ' + idade);
 
 
 
 </details>
 
-append -> adicionar 
-campo de texto -> value
 
 <br>
 
-<h3>Função</h3>
+# <details><summary><h3>Função</h3></summary>
 
 <br>
 
@@ -103,7 +97,7 @@ campo de texto -> value
             document.getElementById("texto2").innerHTML = total;
 
 
-ou
+                 ou
 
 
              function realParaDolar(real,cotacaoDolar){
@@ -128,17 +122,18 @@ ou
 
             document.getElementById("texto2").innerHTML = ("A temperatura é de: " + x + " grau celsius");
 
+</details>
 
+# <details>
+<summary><h3>Objetos</h3></summary>
 
-<h3>Objetos</h3>
+* São basicamente variáveis com muitos valores.
 
-São basicamente variáveis com muitos valores.
+* Os valores dentro de um objeto são chamados de propiedades
 
-Os valores dentro de um objeto são chamados de propiedades
+* Objetos também podem ter métodos. Um método é uma função colocadas dentro de uma propiedade.
 
-Objetos também podem ter métodos. Um método é uma função colocadas dentro de uma propiedade.
-
-para declarar os objetos é melhor usar (((const)))
+* Para declarar os objetos é melhor usar (((const)))
 
 <br>
 
@@ -172,64 +167,59 @@ para declarar os objetos é melhor usar (((const)))
 
             // vai retornar A marca é ford e o modelo é: ka
 
+</details>
 
-<h3>Eventos</h3>
+# <details>
+<summary><h3>Eventos</h3></summary>
 
 <br>
 
-São ações disparadas pela interação dos usuários na página.
+- São ações disparadas pela interação dos usuários na página.
 
-É esses eventos que tornam as páginas interativas e dinâmicas.
+- É esses eventos que tornam as páginas interativas e dinâmicas.
 
-Os eventos mais utilizados:
+- Os eventos mais utilizados:
 
-* onclick -> Disparado quando recebe um click.
+                * onclick -> Disparado quando recebe um click.
 
-* ondblclick -> Disparado quando clique duplo.
+                * ondblclick -> Disparado quando clique duplo.
 
-* onmouseover -> Disparado quando o mouse está sobre.
+                * onmouseover -> Disparado quando o mouse está sobre.
 
-* onmouseout -> Disparado quando o mouse é movido para fora do elemento.
+                * onmouseout -> Disparado quando o mouse é movido para fora do elemento.
 
-* onmousemove -> Disparado quando o mouse é movido no elemento.
+                * onmousemove -> Disparado quando o mouse é movido no elemento.
 
-* onmousedown -> Disparado quando o clique do botão foi pressionado.
+                * onmousedown -> Disparado quando o clique do botão foi pressionado.
 
-* onmouseup -> Disparado quando o clique do botão é liberado.
+                * onmouseup -> Disparado quando o clique do botão é liberado.
 
-* onfocus -> Disparado quando o elemtno recebe o foco. Válido para input..
+                * onfocus -> Disparado quando o elemtno recebe o foco. Válido para input..
 
-* onchange -> Disparado quando existe uma mudança no conteúdo.
+                * onchange -> Disparado quando existe uma mudança no conteúdo.
 
-* onblur -> Disparado quando o elemento perde o foco.
+                * onblur -> Disparado quando o elemento perde o foco.
 
-* onkeydown -> Disparado quando uma tecla é pressionada.
+                * onkeydown -> Disparado quando uma tecla é pressionada.
 
-* onkeypress -> Disparado quando uma tecla é pressionada e solta.
+                * onkeypress -> Disparado quando uma tecla é pressionada e solta.
 
-* onkeyup -> Disparado quando uma tecla é solta sobre um elemento.
+                * onkeyup -> Disparado quando uma tecla é solta sobre um elemento.
 
-* onload -> Disparado quando a página terminou de ser carregada.
+                * onload -> Disparado quando a página terminou de ser carregada.
 
-* onresize -> Disparado quando há um redimencionamento da janela.
-
-
-<summary>
-
-Meus exemplos 
-
-            function viraVermelho(){
-                let div = document.getElementById("teste");
-                div.style.backgroundColor = "red";
-            }
+                * onresize -> Disparado quando há um redimencionamento da janela.
 
 
+</details>
 
+# <details>
+<summary><h3>Arrays</h3></summary>
 
-<h3>Arrays</h3>
-
-Os arrays em JS são usados para armazenar vários valores em uma única variável. O item é encontrado pela posição.
+* Os arrays em JS são usados para armazenar vários valores em uma única variável. O item é encontrado pela posição.
 
 ex: const lista = ["arroz","feijão","macarrão","leite"];
 
 A lista [0] (lista na posição 0) vai conter o valor "arroz".
+
+</details>
