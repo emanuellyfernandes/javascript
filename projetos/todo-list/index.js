@@ -19,7 +19,7 @@ function addTarefa(){
         `<div id="${contador}" class="tarefas">
         <label>
         <p onclick="marcarTarefa(${contador})" class="tarefa" id="tarefa"> ${valorInput} </p>
-        <img onclick="marcarTarefa(${contador})" src="check.png" style="width:30px">
+        <img onclick="marcarTarefa(${contador})" class="tarefas-checar" src="check.png" style="width:30px">
         </label>
         <button onclick="deletar(${contador})" class="tarefas-excluir"><img src="excluir.png" style="width:13px"></button>
         </div>`;
