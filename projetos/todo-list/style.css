@@ -31,7 +31,7 @@ body{
     transform: translate(-50%,-50%);
     border-radius: 15px;
     background: #ecf0f3;
-    box-shadow: 14px 14px 20px #b3b7bb, -14px -14px 20px rgb(233, 232, 232);
+    box-shadow: 14px 14px 20px #b3b7bb, -14px -14px 20px rgb(255, 255, 255);
     overflow:auto;
     padding-bottom: 40px;
       
