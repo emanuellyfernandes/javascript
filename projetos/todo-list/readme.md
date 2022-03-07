@@ -1,6 +1,9 @@
 <h1>Todo List</h1>
 
+<a href="https://todolist-313yv2rwn-emanuellyfernandes.vercel.app/">Link do projeto</a>
+
 #
+
 Projeto realizado com as seguintes tecnologias:
 * HTML5
 * CSS3
@@ -9,4 +12,3 @@ Projeto realizado com as seguintes tecnologias:
 #
 <img src="todo-list.jpeg">
 
-<a href="https://java-script-i9jbtj3nd-emanuellyfernandes.vercel.app/">Link do projeto</a>
