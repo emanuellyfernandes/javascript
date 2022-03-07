@@ -1,6 +1,6 @@
-
 <br>
-<h1 align="center"><img src="js.png" style="width:100px"><br> <br><br><b>JavaScript</b>  </h1>
+
+# JavaScript   <img src="js.png" style="width:30px">
 
 - É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
 

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    font-family: 'Hubballi', cursive;
+    color: rgb(70, 69, 69);
+    font-size: 20px;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    background: #ecf0f3;
+    background-position: center;
+}
+
+.container{
+    position: absolute;
+    height: auto;
+    max-height: 450px;
+    min-height: 150px;
+    width: 100%;
+    max-width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #b3b7bb, -14px -14px 20px rgb(233, 232, 232);
+    overflow:auto;
+    padding-bottom: 40px;
+      
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+h3{
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-family: 'Concert One', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+    box-shadow: 7px 7px 10px #afb2b4, -7px -7px 10px white;
+    border-radius: 30px;
+    color: rgb(134, 175, 139);
+
+}
+
+.adicionar{
+    background: #ecf0f3;
+    height: 50px;
+    margin-top: -5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.escrever-tarefas{
+    background-color: transparent;
+    height: 50px;
+    border: none;
+    width: 76%;
+    cursor:text;
+    text-align:left;
+    color: rgb(78, 78, 78);
+    margin-left: 5px;
+}
+
+
+.adicionar-tarefas{
+    background-color: transparent;
+    width: 15%;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.adicionar-tarefas:hover{
+    color: rgb(169, 189, 170);
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.tarefas{
+    margin-left: 40px;
+    margin-right: 45px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(134, 175, 139);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    overflow: hidden;
+
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.tarefa{
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color:transparent;
+  width: 90%;
+  text-align: left;
+  margin-left: 10px;
+
+ 
+
+}
+
+.tarefa-check{
+    font-style: italic;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.tarefas-check{
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: -15px;
+
+
+}
+
+
+
+.tarefas-excluir{
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.tarefas-excluir:hover{
+    color: white;
+}
+
+.tarefa-check {
+    position: relative;
+    cursor: pointer;
+}
