@@ -26,7 +26,9 @@ function addTarefa(){
     
         main.innerHTML += novaTarefa;
 
-       
+      
+        //zerar o ncampo de adicionar tarefa
+        escreverTarefa.value = "";
         escreverTarefa.focus();
        
         
@@ -38,7 +40,6 @@ function addTarefa(){
 function deletar(id){
     var tarefa = document.getElementById(id);
     tarefa.remove();
-    salvarLocalStorage();
 }
 
 
