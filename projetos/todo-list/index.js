@@ -26,19 +26,7 @@ function addTarefa(){
     
         main.innerHTML += novaTarefa;
 
-        if(localStorage.getItem("tarefa") == null){
-            localStorage.setItem("tarefa", JSON.stringify(tarefas));
-        }
-        else{
-
-            localStorage.setItem("tarefa", JSON.stringify(tarefas));
-
-        }
-
-        console.log(localStorage.getItem(valorInput));
-
-        //zerar o ncampo de adicionar tarefa
-        escreverTarefa.value = "";
+       
         escreverTarefa.focus();
        
         
@@ -67,7 +55,6 @@ function marcarTarefa(id){
 
     }
 
-    salvarLocalStorage();
 
 }
 
